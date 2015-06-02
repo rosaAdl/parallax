@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Figure and Food Demo</title>
+ <!-- Custom CSS -->
+<link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--
+  <div class="debug">
+    <label><input type="checkbox"> Debug</label>
+  </div>
+  <div class="demo__info">
+    Pure CSS parallax scroll demo #3 by Keith Clark. Please read the <a href="http://keithclark.co.uk/articles/pure-css-parallax-websites/">blog post</a> for more information.
+  </div>
+-->
+
+  <div class="parallax">
+    <div id="group2" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title">Base Layer</div>
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <div class="title">
+          <div class="beach-img"><img src="images/1.jpg"/></div>
+          <div class="vertical-img"><img src="images/2.jpg"/></div>
+          <div class="vertical-img"><img src="images/3.jpg"/></div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script async="" src="./A grouped pure CSS parallax demo by Keith Clark_files/analytics.js"></script><script>
+    var debugInput = document.querySelector("input");
+    function updateDebugState() {
+        document.body.classList.toggle('debug-on', debugInput.checked);
+    }
+    debugInput.addEventListener("click", updateDebugState);
+    updateDebugState();
+  </script>
+
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-10812217-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body></html>
